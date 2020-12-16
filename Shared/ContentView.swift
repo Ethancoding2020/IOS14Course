@@ -10,9 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
-            Image("Illustration 1")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
+            Spacer()
+            HStack {
+                Spacer()
+                Image("Illustration 1")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                Spacer()
+            }
             Text("SwiftUI for iOS")
                 .fontWeight(.bold)
                 .foregroundColor(Color.white)
@@ -20,7 +25,7 @@ struct ContentView: View {
                 .font(.footnote).foregroundColor(Color.white)
         }
         .padding(.all)
-        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
+        .background(Color.blue)
         .cornerRadius(20.0)
         .shadow(radius: 10)
     }
@@ -28,6 +33,11 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+    Group {
         ContentView()
+        ContentView()
+            .previewLayout(.fixed(width: 200.0, height: 200.0))
+            .preferredColorScheme(.dark)
     }
+}
 }
