@@ -19,6 +19,8 @@
 		AAF0FABD258AC78800BFDA6E /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FABB258AC78800BFDA6E /* CoursesView.swift */; };
 		AAF0FAC1258AC8E400BFDA6E /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAC0258AC8E400BFDA6E /* SideBar.swift */; };
 		AAF0FAC2258AC8E400BFDA6E /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAC0258AC8E400BFDA6E /* SideBar.swift */; };
+		AAF0FAC6258C10DF00BFDA6E /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */; };
+		AAF0FAC7258C10DF00BFDA6E /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		AAF0FAB6258A987100BFDA6E /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
 		AAF0FABB258AC78800BFDA6E /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 		AAF0FAC0258AC8E400BFDA6E /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				AAF0FA93258A753200BFDA6E /* IOS14CourseApp.swift */,
-				AAF0FA94258A753200BFDA6E /* ContentView.swift */,
+				AAF0FAD0258C16CD00BFDA6E /* Navigation */,
+				AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */,
 				AAF0FAB6258A987100BFDA6E /* CourseRow.swift */,
 				AAF0FABB258AC78800BFDA6E /* CoursesView.swift */,
 				AAF0FAC0258AC8E400BFDA6E /* SideBar.swift */,
@@ -100,6 +104,14 @@
 				AAF0FAA5258A753700BFDA6E /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		AAF0FAD0258C16CD00BFDA6E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0FA94258A753200BFDA6E /* ContentView.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF0FAC1258AC8E400BFDA6E /* SideBar.swift in Sources */,
+				AAF0FAC6258C10DF00BFDA6E /* CourseItem.swift in Sources */,
 				AAF0FAA8258A753700BFDA6E /* ContentView.swift in Sources */,
 				AAF0FAB7258A987100BFDA6E /* CourseRow.swift in Sources */,
 				AAF0FAA6258A753700BFDA6E /* IOS14CourseApp.swift in Sources */,
@@ -212,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF0FAC2258AC8E400BFDA6E /* SideBar.swift in Sources */,
+				AAF0FAC7258C10DF00BFDA6E /* CourseItem.swift in Sources */,
 				AAF0FAA9258A753700BFDA6E /* ContentView.swift in Sources */,
 				AAF0FAB8258A987100BFDA6E /* CourseRow.swift in Sources */,
 				AAF0FAA7258A753700BFDA6E /* IOS14CourseApp.swift in Sources */,
