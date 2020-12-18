@@ -21,6 +21,10 @@
 		AAF0FAC2258AC8E400BFDA6E /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAC0258AC8E400BFDA6E /* SideBar.swift */; };
 		AAF0FAC6258C10DF00BFDA6E /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */; };
 		AAF0FAC7258C10DF00BFDA6E /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */; };
+		AAF0FAD3258C1F9600BFDA6E /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAD2258C1F9600BFDA6E /* CourseList.swift */; };
+		AAF0FAD4258C1F9600BFDA6E /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAD2258C1F9600BFDA6E /* CourseList.swift */; };
+		AAF0FADA258D417100BFDA6E /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAD9258D417100BFDA6E /* Course.swift */; };
+		AAF0FADB258D417200BFDA6E /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FAD9258D417100BFDA6E /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,8 @@
 		AAF0FABB258AC78800BFDA6E /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 		AAF0FAC0258AC8E400BFDA6E /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		AAF0FAD2258C1F9600BFDA6E /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		AAF0FAD9258D417100BFDA6E /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +77,10 @@
 			children = (
 				AAF0FA93258A753200BFDA6E /* IOS14CourseApp.swift */,
 				AAF0FAD0258C16CD00BFDA6E /* Navigation */,
-				AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */,
-				AAF0FAB6258A987100BFDA6E /* CourseRow.swift */,
+				AAF0FAD1258C1EEF00BFDA6E /* Items */,
 				AAF0FABB258AC78800BFDA6E /* CoursesView.swift */,
-				AAF0FAC0258AC8E400BFDA6E /* SideBar.swift */,
+				AAF0FAD9258D417100BFDA6E /* Course.swift */,
+				AAF0FAD2258C1F9600BFDA6E /* CourseList.swift */,
 				AAF0FA95258A753700BFDA6E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -110,8 +116,18 @@
 			isa = PBXGroup;
 			children = (
 				AAF0FA94258A753200BFDA6E /* ContentView.swift */,
+				AAF0FAC0258AC8E400BFDA6E /* SideBar.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		AAF0FAD1258C1EEF00BFDA6E /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				AAF0FAC5258C10DF00BFDA6E /* CourseItem.swift */,
+				AAF0FAB6258A987100BFDA6E /* CourseRow.swift */,
+			);
+			path = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,12 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF0FADA258D417100BFDA6E /* Course.swift in Sources */,
 				AAF0FAC1258AC8E400BFDA6E /* SideBar.swift in Sources */,
 				AAF0FAC6258C10DF00BFDA6E /* CourseItem.swift in Sources */,
 				AAF0FAA8258A753700BFDA6E /* ContentView.swift in Sources */,
 				AAF0FAB7258A987100BFDA6E /* CourseRow.swift in Sources */,
 				AAF0FAA6258A753700BFDA6E /* IOS14CourseApp.swift in Sources */,
 				AAF0FABC258AC78800BFDA6E /* CoursesView.swift in Sources */,
+				AAF0FAD3258C1F9600BFDA6E /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,12 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF0FADB258D417200BFDA6E /* Course.swift in Sources */,
 				AAF0FAC2258AC8E400BFDA6E /* SideBar.swift in Sources */,
 				AAF0FAC7258C10DF00BFDA6E /* CourseItem.swift in Sources */,
 				AAF0FAA9258A753700BFDA6E /* ContentView.swift in Sources */,
 				AAF0FAB8258A987100BFDA6E /* CourseRow.swift in Sources */,
 				AAF0FAA7258A753700BFDA6E /* IOS14CourseApp.swift in Sources */,
 				AAF0FABD258AC78800BFDA6E /* CoursesView.swift in Sources */,
+				AAF0FAD4258C1F9600BFDA6E /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
