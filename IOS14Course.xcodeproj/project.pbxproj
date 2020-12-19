@@ -24,6 +24,7 @@
 		AA82CA09258E59D200B90171 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA82CA08258E59D200B90171 /* VisualEffectBlur.swift */; };
 		AA82CA0D258E59E200B90171 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA82CA0C258E59E200B90171 /* VisualEffectBlur.swift */; };
 		AA82CA11258E608000B90171 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA82CA10258E608000B90171 /* TabBar.swift */; };
+		AA82CA15258EA72B00B90171 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA82CA14258EA72B00B90171 /* CourseSectionDetail.swift */; };
 		AAF0FAA6258A753700BFDA6E /* IOS14CourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FA93258A753200BFDA6E /* IOS14CourseApp.swift */; };
 		AAF0FAA7258A753700BFDA6E /* IOS14CourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FA93258A753200BFDA6E /* IOS14CourseApp.swift */; };
 		AAF0FAA8258A753700BFDA6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF0FA94258A753200BFDA6E /* ContentView.swift */; };
@@ -59,6 +60,7 @@
 		AA82CA08258E59D200B90171 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		AA82CA0C258E59E200B90171 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		AA82CA10258E608000B90171 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		AA82CA14258EA72B00B90171 /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
 		AAF0FA93258A753200BFDA6E /* IOS14CourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS14CourseApp.swift; sourceTree = "<group>"; };
 		AAF0FA94258A753200BFDA6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAF0FA95258A753700BFDA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				AAF0FAD1258C1EEF00BFDA6E /* Items */,
 				AAF0FABB258AC78800BFDA6E /* CoursesView.swift */,
 				AAF0FAEA258E536400BFDA6E /* CourseDetail.swift */,
+				AA82CA14258EA72B00B90171 /* CourseSectionDetail.swift */,
 				AAF0FAE5258D624100BFDA6E /* CloseButton.swift */,
 				AAF0FAD2258C1F9600BFDA6E /* CourseList.swift */,
 				AAF0FA95258A753700BFDA6E /* Assets.xcassets */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF0FADA258D417100BFDA6E /* Course.swift in Sources */,
+				AA82CA15258EA72B00B90171 /* CourseSectionDetail.swift in Sources */,
 				AA82CA00258E57BA00B90171 /* Download.swift in Sources */,
 				AA82CA11258E608000B90171 /* TabBar.swift in Sources */,
 				AA82C9F8258E57BA00B90171 /* Tutorial.swift in Sources */,
