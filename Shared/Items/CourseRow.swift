@@ -18,14 +18,14 @@ struct CourseRow: View {
                 .imageScale(.medium)
                 .background(item.color)
                 .clipShape(Circle())
-            VStack(alignment: .leading, spacing: 4.0) {
+            VStack(alignment: .leading, spacing: 4.0) { 
                 Text(item.title)
                     .font(.subheadline)
                     .bold()
                     .foregroundColor(.primary)
                 Text(item.subtitle)
                     .font(.footnote)
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.black)
             }
             Spacer()
         }

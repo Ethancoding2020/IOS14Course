@@ -11,6 +11,15 @@ struct CourseSectionDetail: View {
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
+        #if os(iOS)
+        content
+        #else
+        content
+            .frame(width: 800, height: 600)
+        #endif
+    }
+    
+    var content: some View {
         ZStack(alignment: .topTrailing) {
             ScrollView {
                 CourseItem(cornerRadius: 0)
